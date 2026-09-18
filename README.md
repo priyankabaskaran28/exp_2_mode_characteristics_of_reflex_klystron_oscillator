@@ -69,11 +69,84 @@ As the bunches pass back through the resonator grids they interact with the gap 
 
 ## Observation
 
-*(Include your own table relevant to the experiment.)*
+### Observation Table
+
+**Operating Parameters:**
+
+* Beam Voltage ($V_{\text{beam}}$) = $280\text{ V}$
+* Beam Current ($I_{\text{beam}}$) = $20\text{ mA}$
+
+| S.No | Mode Index ($n$) | Mode Number ($N = n + \frac{3}{4}$) | Repeller Voltage $\Vert{}V_{\text{rep}}\Vert{}$ (V) | Output Power $P_{\text{out}}$ (mW) | Resonant Frequency $f_0$ (GHz) | Half-Power Frequencies $f_1 - f_2$ (GHz) | Electronic Tuning Range $\text{ETR}$ (MHz) | Voltage Difference $\Delta V$ (V) | Electronic Tuning Sensitivity $\text{ETS}$ (MHz/V) | Transit Time $T_0$ (ns) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 1 | $1\frac{3}{4}\ (1.75)$ | 200 | 27.5 | 9.170 | 9.145 – 9.208 | 63 | 18 | 3.50 | 0.191 |
+| 2 | 2 | $2\frac{3}{4}\ (2.75)$ | 138 | 20.4 | 9.172 | 9.142 – 9.210 | 68 | 15 | 4.53 | 0.300 |
+| 3 | 3 | $3\frac{3}{4}\ (3.75)$ | 90 | 12.2 | 9.175 | 9.138 – 9.215 | 77 | 13 | 5.92 | 0.409 |
+
+---
+
+### Detailed Point-by-Point Readings for Graph Plotting
+
+#### Mode 1 ($N = 1\frac{3}{4}$)
+
+* Peak Repeller Voltage: $-200\text{ V}$
+* Peak Output Power: $27.5\text{ mW}$
+
+| Repeller Voltage $\Vert{}V_{\text{rep}}\Vert{}$ (V) | Output Power $P_{\text{out}}$ (mW) | Frequency (GHz) |
+| --- | --- | --- |
+| 180 | 0.0 | — |
+| 185 | 8.2 | 9.130 |
+| 191 | 13.8 (Half Power) | 9.145 ($f_1$) |
+| 195 | 22.0 | 9.158 |
+| 200 | 27.5 (Peak) | 9.170 ($f_0$) |
+| 205 | 21.6 | 9.186 |
+| 209 | 13.8 (Half Power) | 9.208 ($f_2$) |
+| 215 | 6.5 | 9.220 |
+| 220 | 0.0 | — |
+
+#### Mode 2 ($N = 2\frac{3}{4}$)
+
+* Peak Repeller Voltage: $-138\text{ V}$
+* Peak Output Power: $20.4\text{ mW}$
+
+| Repeller Voltage $\Vert{}V_{\text{rep}}\Vert{}$ (V) | Output Power $P_{\text{out}}$ (mW) | Frequency (GHz) |
+| --- | --- | --- |
+| 120 | 0.0 | — |
+| 125 | 6.0 | 9.128 |
+| 130 | 10.2 (Half Power) | 9.142 ($f_1$) |
+| 134 | 16.5 | 9.155 |
+| 138 | 20.4 (Peak) | 9.172 ($f_0$) |
+| 142 | 15.8 | 9.188 |
+| 145 | 10.2 (Half Power) | 9.210 ($f_2$) |
+| 150 | 4.8 | 9.224 |
+| 155 | 0.0 | — |
+
+#### Mode 3 ($N = 3\frac{3}{4}$)
+
+* Peak Repeller Voltage: $-90\text{ V}$
+* Peak Output Power: $12.2\text{ mW}$
+
+| Repeller Voltage $\Vert{}V_{\text{rep}}\Vert{}$ (V) | Output Power $P_{\text{out}}$ (mW) | Frequency (GHz) |
+| --- | --- | --- |
+| 75 | 0.0 | — |
+| 80 | 3.5 | 9.122 |
+| 83 | 6.1 (Half Power) | 9.138 ($f_1$) |
+| 87 | 10.0 | 9.156 |
+| 90 | 12.2 (Peak) | 9.175 ($f_0$) |
+| 93 | 9.8 | 9.192 |
+| 96 | 6.1 (Half Power) | 9.215 ($f_2$) |
+| 100 | 2.8 | 9.230 |
+| 105 | 0.0 | — |
+
+---
+
+### Inferences from Observations
+
+* **Mode Number & Repeller Voltage:** As the magnitude of repeller voltage decreases ($200\text{ V} \rightarrow 138\text{ V} \rightarrow 90\text{ V}$), the retarding electric field becomes weaker, requiring electrons to take more cycles to return; hence the mode number increases ($N = 1.75 \rightarrow 2.75 \rightarrow 3.75$).
+* **Power Variation:** The lowest-order mode ($N = 1\frac{3}{4}$) produces the highest output power ($27.5\text{ mW}$). Higher-order modes deliver less power because the electron bunches disperse more due to space-charge repulsion during their longer transit times.
+* **Tuning Sensitivity (ETS):** Higher-order modes have higher tuning sensitivity ($5.92\text{ MHz/V}$ for Mode 3 vs. $3.50\text{ MHz/V}$ for Mode 1), meaning smaller shifts in repeller voltage produce larger frequency adjustments.
 
 ## Graph
-
-*(Include your own graph relevant to the experiment.)*
+<img width="696" height="423" alt="image" src="https://github.com/user-attachments/assets/1f01c9ca-3b97-443d-b579-f073c98cbd41" />
 
 ## Precautions
 
@@ -89,5 +162,4 @@ As the bunches pass back through the resonator grids they interact with the gap 
 10. Do not increase the repeller voltage beyond −70 V; it should stay between −70 V and 270 V.
 
 ## Conclusion
-
-*(Write your own.)*
+Thus the experiment is verified .
